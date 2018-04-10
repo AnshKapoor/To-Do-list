@@ -139,4 +139,17 @@ background:cadetblue;
 
 
 }
+button.remove{
+position:absolute;
+left:150px;
+
+}
+button.delete{
+    position:absolute;
+    left:188px;
+
+}
+button.delete:hover{
+    opacity:0.5;
+}
 
