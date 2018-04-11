@@ -83,7 +83,7 @@ ul.todo li{
     position: relative;
     width:100%;
     float:left;
-    height:50px;
+    height:80px;
     background:rgb(182, 195, 250);
     border-top-left-radius: 26px;
     border-bottom-left-radius: 26px;
@@ -96,6 +96,7 @@ ul.todo li{
     margin-top: 5px;
     font-size: 25px;
     font-family: 'Jua', sans-serif;
+    margin:50px;
     
   
 
@@ -140,16 +141,36 @@ background:cadetblue;
 
 }
 button.remove{
-position:absolute;
-left:150px;
+position:relative;
+left:690px;
+
 
 }
 button.delete{
-    position:absolute;
-    left:188px;
+    position:relative;
+    left:700px;
+
+    
 
 }
 button.delete:hover{
     opacity:0.5;
+}
+.listyle{
+    border-color: rgb(43, 43, 119);
+    border-width: 5px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    font-family: Luminari, fantasy;
+    padding-left: 20px;
+    padding-top: 12.5px;
+    text-indent: 30px;
+    width:100%;
+    float:left;
+    background-color: rgb(139, 220, 231);
+    height:50px;
+    margin: 10px;
 }
 
